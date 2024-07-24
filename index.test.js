@@ -1,5 +1,5 @@
 
-const prompt = require('./pomptext');
+const prompt = require('./prompt-ext');
 prompt.extendExpect();
 const callModel = prompt.callModel;
 
