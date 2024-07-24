@@ -25,7 +25,7 @@ module.exports.extendExpect = function () {
   });
 }
 const providers = [{
-    id: 'https://phi3-airoadshow.apps.cluster-7zqkl.sandbox1499.opentlc.com:443/v1/chat/completions',
+    id: 'https://xxx:443/v1/chat/completions',
     config: {
        method: 'POST',
        headers: {'Content-Type': 'application/json'},
